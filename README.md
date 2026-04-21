@@ -1,16 +1,100 @@
-# React + Vite
+# 💎 Averra Hub 5/100
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I wanted to build one project that feels bigger than just another UI demo.
 
-Currently, two official plugins are available:
+So this became Averra Hub — a personal dashboard for notes, mood, links and ideas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Still learning, still shipping, but this one is meant to feel like the main product in the Averra line.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## what it does
 
-## Expanding the ESLint configuration
+* track your mood
+* save quick notes
+* manage useful links
+* keep focus tasks
+* generate small AI-style outputs
+* store everything locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+basically: one dashboard for the stuff I use most
+
+---
+
+## why I made it
+
+I already built separate projects like notes, links, AI tools and mood tracking.
+
+This project is the place where all of that comes together.
+
+also wanted to practice:
+
+* dashboard layout
+* product thinking
+* state management
+* localStorage
+* stronger UI direction
+
+---
+
+## stack
+
+react + vite
+tailwind (v4 + @tailwindcss/vite)
+
+---
+
+## run it
+
+```bash
+git clone https://github.com/averout/averra-hub.git
+cd averra-hub
+npm install
+npm run dev
+```
+
+---
+
+## features
+
+* pastel / glass dashboard UI
+* working notes widget
+* working links widget
+* working focus widget
+* mood switching
+* AI prompt widget
+* recent prompt history
+* localStorage support
+
+---
+
+## next ideas
+
+* full navigation between sections
+* dark mode
+* better AI logic
+* charts / insights
+* drag and drop widgets
+* mobile optimization
+
+---
+
+## about me
+
+averout
+beginner frontend developer
+
+building small products and learning by doing
+
+telegram: @clqbs
+discord: clos3ddd
+
+---
+
+Averra Notes ✔️
+Averra Links ✔️
+Averra AI ✔️
+Averra Mood ✔️
+Averra Hub ✔️
+
+more coming.
